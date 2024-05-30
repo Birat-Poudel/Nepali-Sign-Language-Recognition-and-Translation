@@ -1,7 +1,0 @@
-Total Gestures: 15
-3 Gestures - Numbers
-11 Gestures - Characters
-1 Gesture - Empty Background
-
-Total Images: 40602
-Test Images: 13505
