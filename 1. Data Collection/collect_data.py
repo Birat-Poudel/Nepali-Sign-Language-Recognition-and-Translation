@@ -3,25 +3,20 @@ import numpy as np
 import os
 import string
 
-
-
 if not os.path.exists("data"):
     os.makedirs("data")
 if not os.path.exists("data/train"):
     os.makedirs("data/train")
 if not os.path.exists("data/test"):
     os.makedirs("data/test")
-   
-   
+      
 for i in range(3):
     if not os.path.exists("data/train/" + str(i)):
         os.makedirs("data/train/"+str(i))
     if not os.path.exists("data/test/" + str(i)):
         os.makedirs("data/test/"+str(i))
-         
-    
-j=0;
-
+             
+j=0
 
 for i in string.ascii_uppercase:
     if not os.path.exists("data/train/" + i):
@@ -219,7 +214,3 @@ while True:
   
 cap.release()
 cv2.destroyAllWindows()
-
-
-    
-    
