@@ -3,11 +3,17 @@ import random
 
 base_folder = "data"
 
-# Names of the train and test folders
 train_folder = "train"
 test_folder = "test"
 
-subfolders = ["0","1","2","A", "B", "C", "D", "E","G","H","I"]
+subfolders = [
+    '0', '1', '2', '3', '4', 
+    '5', '6', '7', '8', '9', 
+    'A', 'B', 'C', 'D', 'E', 
+    'F', 'G', 'H', 'I', 'J', 
+    'K', 'L', 'M', 'N', 'O', 
+    'P', 'Q', 'R', 'S', 'T', 
+    'U', 'V', 'W', 'X', 'Y', 'Z']
 
 for folder_name in [train_folder, test_folder]:
     folder = os.path.join(base_folder, folder_name)
