@@ -1,5 +1,7 @@
 # Nepali Sign Language Recognition and Translation in Text and Speech using Open CV and CNN
 
+⚠️ **DEPRECATED**: This repository is no longer maintained. Please use the updated version at [Nepali Sign Language Characters Classification](https://github.com/Birat-Poudel/Nepali-Sign-Language-Characters-Classification).
+
 ### ABSTRACT
 Sign Language is the visual means of communication among the people with hearing 
 and speaking impairments. In our project, Nepali Sign Language Recognition and 
